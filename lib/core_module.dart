@@ -1,2 +1,3 @@
 export './src/domain/domain.dart';
-export './src/domain/models/base_response_model.dart';
+export './src/utils/utils.dart';
+export './src/data/repositories/base/base_api_repository.dart';
