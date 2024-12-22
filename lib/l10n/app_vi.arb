@@ -1,0 +1,47 @@
+{
+    "@_HEADER": {},
+    "title_header": "Tinh hoa quản trị",
+
+    "@_BUTTON": {},
+    "next_button": "Tiếp tục",
+    "submit_button": "Xác nhận",
+    "company_code_button": "Đổi mã",
+
+    "@_PLACEHOLDER": {},
+    "code_placeholder": "Nhập mã",
+
+    "@_PROMPT": {},
+    "submit_code_prompt": "Vui lòng nhập mã công ty cho lần đăng nhập đầu tiên",
+    "login_prompt": "Đăng nhập nếu bạn đã có tài khoản ở đây",
+
+    "@_ERROR": {},
+    "error_empty": "Trường bắt buộc nhập",
+    "error_code": "Sai code",
+
+    "@_LABEL": {},
+    "username_label": "Tài khoản",
+    "password_label": "Mật khẩu",
+    "code_label": "Mã",
+
+    "@_COMMON": {},
+    "login": "Đăng nhập",
+    "language": "Ngôn ngữ",
+    "locale_name": "{language, select, vi{Tiếng Việt} en{Tiếng Anh} other{}}",
+    "@locale_name": {
+        "description": "Language",
+        "placeholders": {
+            "language": {
+                "type": "String"
+            }
+        }
+    },
+    "setting": "Cài đặt",
+    "report": "Báo cáo",
+    "logout": "Đăng xuất",
+    "logoutAndChangeCode": "Đăng xuất và đổi code",
+    "version": "Phiên bản",
+    "home": "Trang chủ",
+    "monitor": "Báo cáo",
+    "notification": "Thông báo",
+    "more": "Thêm"
+}

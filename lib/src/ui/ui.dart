@@ -1,1 +1,1 @@
-export './core/header_banner.dart';
+export './core/core.dart';
