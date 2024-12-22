@@ -1,0 +1,48 @@
+{
+    
+    "@_HEADER": {},
+    "title_header": "The Essence of Management",
+
+    "@_BUTTON": {},
+    "next_button": "Next",
+    "submit_button": "Submit",
+    "company_code_button": "Change code",
+
+    "@_PLACEHOLDER": {},
+    "code_placeholder": "Enter code",
+
+    "@_PROMPT": {},
+    "submit_code_prompt": "Please enter company code for fist time login",
+    "login_prompt": "Just sign in if you have an account in here",
+
+    "@_ERROR": {},
+    "error_empty": "This field is required",
+    "error_code": "Incorrect code",
+
+    "@_LABEL": {},
+    "username_label": "Username",
+    "password_label": "Password",
+    "code_label": "Code",
+
+    "@_COMMON": {},
+    "login": "Login",   
+    "language": "Language",
+    "locale_name": "{language, select, vi{Vietnamese} en{English} other{}}",
+    "@locale_name": {
+        "description": "Language",
+        "placeholders": {
+            "language": {
+                "type": "String"
+            }
+        }
+    },
+    "setting": "Setting",
+    "report": "Report",
+    "logout": "Logout",
+    "logoutAndChangeCode": "Logout and change code",
+    "version": "Version",
+    "home": "Home",
+    "monitor": "Monitor",
+    "notification": "Notification",
+    "more": "More"
+}
