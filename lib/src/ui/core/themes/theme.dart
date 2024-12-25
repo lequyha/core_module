@@ -49,6 +49,11 @@ extension AppTheme on TextTheme {
         fontWeight: FontWeight.w700,
       );
 
+  TextStyle get kBaseBold => const TextStyle(
+        fontSize: 16.0,
+        fontWeight: FontWeight.w700,
+      );
+
   ButtonStyle get kPrimaryButtonStyle => ElevatedButton.styleFrom(
         elevation: 0.0,
         backgroundColor: AppColors.kBtn1stDefaultBackgroundColor,

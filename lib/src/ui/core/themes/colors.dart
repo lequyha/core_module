@@ -23,4 +23,8 @@ class AppColors {
   static const kIcHintColor = Color(0xFF667085);
   static const kMainBackgroundColor = Color(0xFFEAECF0);
   static const kBorderLineColor = Color(0xFFEAECF0);
+  static const kTextBtnDisabledColor = Color(0xFF667085);
+  static const kBorderActiveColor = Color(0xFF0C4DA2);
+  static const kNeutralBlackColor = Color(0xFF1A1919);
+  static const kNeutralGray7Color = Color(0xFF344054);
 }
