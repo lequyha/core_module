@@ -1,3 +1,4 @@
+import 'package:core_module/src/utils/date_formats.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -40,7 +41,7 @@ extension ListExtensions<T> on List<T> {
 extension StringDateTimeExtension on String {
   /// Convert string to DateTime based on the provided [inputFormat].
   /// Throws a [FormatException] if parsing fails.
-  DateTime? toDateTime({String inputFormat = 'yyyy-MM-dd HH:mm:ss'}) {
+  DateTime? toDateTime({String inputFormat = DateFormats.yyyyMmddHhmmss}) {
     try {
       final formatter = DateFormat(inputFormat);
       return formatter.parse(this);
@@ -52,8 +53,8 @@ extension StringDateTimeExtension on String {
   /// Convert string to a formatted date string based on [inputFormat] and [outputFormat].
   /// Returns `null` if parsing fails.
   String? toFormattedDate({
-    String inputFormat = 'yyyy-MM-dd HH:mm:ss',
-    String outputFormat = 'HH:mm dd/MM/yyyy',
+    String inputFormat = DateFormats.yyyyMmddHhmmss,
+    String outputFormat = DateFormats.hhmmDdMmYyyy,
   }) {
     try {
       final dateTime = toDateTime(inputFormat: inputFormat);
