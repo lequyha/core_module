@@ -19,6 +19,11 @@ extension AppTheme on TextTheme {
         fontWeight: FontWeight.normal,
       );
 
+  TextStyle get kXSmallRegular => const TextStyle(
+        fontSize: 12.0,
+        fontWeight: FontWeight.normal,
+      );
+
   TextStyle get kXSmallMedium => const TextStyle(
         fontSize: 12.0,
         fontWeight: FontWeight.w500,
@@ -27,6 +32,11 @@ extension AppTheme on TextTheme {
   TextStyle get kSmallMedium => const TextStyle(
         fontSize: 14.0,
         fontWeight: FontWeight.w500,
+      );
+
+  TextStyle get kSmallSemibold => const TextStyle(
+        fontSize: 14.0,
+        fontWeight: FontWeight.w600,
       );
 
   TextStyle get kBaseMedium => const TextStyle(

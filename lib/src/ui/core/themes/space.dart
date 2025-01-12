@@ -5,6 +5,7 @@ class AppSpace {
   static const space8 = 8.0;
   static const space12 = 12.0;
   static const space16 = 16.0;
+  static const space18 = 18.0;
   static const space20 = 20.0;
   static const space24 = 24.0;
 }

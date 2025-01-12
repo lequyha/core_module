@@ -5,6 +5,7 @@ class AppColors {
   static const kTextHintColor = Color(0xFF667085);
   static const kTextErrorColor = Color(0xFFDA3E33);
   static const kBorder1stColor = Color(0xFFD0D5DD);
+  static const kBorderDisabledColor = Color(0xFFD0D5DD);
   static const kText1stColor = Color(0xFF101828);
   static const kBtn1stDefaultBackgroundColor = Color(0xFF0C4DA2);
   static const kBtn2ndDefaultBackgroundColor = Color(0xFFECF4FE);
@@ -27,4 +28,9 @@ class AppColors {
   static const kBorderActiveColor = Color(0xFF0C4DA2);
   static const kNeutralBlackColor = Color(0xFF1A1919);
   static const kNeutralGray7Color = Color(0xFF344054);
+  static const kTextDefaultColor = Color(0xFF070708);
+  static const kLayerBackgroundColor = Color(0xFFF2F4F7);
+  static const kTextLinkColor = Color(0xFF0C4DA2);
+  static const kNeutralGray5Color = Color(0xFF667085);
+  static const kNeutralGray05Color = Color(0xFFF9FAFB);
 }
