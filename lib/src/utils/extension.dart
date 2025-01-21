@@ -68,6 +68,25 @@ extension StringDateTimeExtension on String {
   }
 }
 
+extension DateTimeExtension on DateTime? {
+  /// Convert string to a formatted date string based on [inputFormat] and [outputFormat].
+  /// Returns `null` if parsing fails.
+  String toFormattedDate({
+    String inputFormat = DateFormats.yyyyMmddHhmmss,
+    String outputFormat = DateFormats.hhmmDdMmYyyy,
+  }) {
+    try {
+      if (this != null) {
+        return DateFormat(outputFormat).format(this!);
+      } else {
+        return '';
+      }
+    } catch (_) {
+      return '';
+    }
+  }
+}
+
 extension IndexedIterable<E> on Iterable<E> {
   Iterable<T> mapIndexed<T>(T Function(E e, int i) f) {
     var i = 0;
