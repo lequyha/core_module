@@ -5,4 +5,5 @@ class AppInfo {
 
   static const kCodeKey = 'CODE';
   static const kUsername = 'USERNAME';
+  static const kSproTokenKey = 'SPROTOKEN';
 }
